@@ -271,5 +271,69 @@ footer {
   margin: 0;
   color: #e5e5e5;
   font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+/***** responsive *****/
+
+@media all and (max-width: 800px) {
+  .navToggle {
+    padding-top: 120px;
+    height: 100vh;
+    color: rgba(35,35,35,0.3);
+  }
+  .navToggle a {
+    display: block;
+    padding: 22px 35px;
+  }
+  .logo img {
+    width: 45%;
+  }
+  .aboutInfo {
+    padding: 25px 55px;
+    height: 400px;
+    text-align: center;
+  }
+  footer {
+    padding: 40px;
+  }
+  .copyright {
+    margin-top: 40px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .navBar {
+    padding-right: 0;
+  }
+  .right {
+    float: none;
+  }
+  .about {
+    height: 250px;
+  }
+  .aboutInfo {
+    height: 400px;
+  }
+  .about h1 {
+    font-size: 24px;
+  }
+  .about h2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .about a {
+    font-size: 16px;
+  }
+  .iconOne,
+  .iconFour,
+  .iconFive {
+    background-color: #232323;
+  }
+  .iconTwo,
+  .iconThree,
+  .iconSix {
+    background-color: #282828;
+  }
 }
 
