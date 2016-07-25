@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>alexdoesphotos</title>
+  
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:900,200,600' rel='stylesheet' type='text/css'>
+  
+  <!-- CSS -->
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/full-slider.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  
+  <nav>
+    <div class="navBar">
+      <a href="#menu" title="Navigation Toggle" class="right">
+        <div id="navIcon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a> 
+    </div>
+    <div class="navToggle">
+      <a href="#contentTop">about</a>
+      <a href="https://www.facebook.com/alexaistropephotography/" target="_blank">facebook</a>
+      <a href="https://www.instagram.com/alexdoesphotos/" target="_blank">instagram</a>
+      <a href="https://twitter.com/alexdoesphotos" target="_blank">twitter</a>
+      <a href="https://alexdoesphotosblog.wordpress.com/" target="_blank">blog</a>
+      <a href="https://www.linkedin.com/in/alex-aistrope-8a4a03122" target="_blank">linkedin</a>
+      <a href="mailto:alexdoesphotos@yahoo.com?Subject=Web Contact">contact</a>
+    </div>
+  </nav>
+
+  <div class="overlay">
+    <div class="logo">
+      <img src="img/logo_w.svg" />
+      <a href="#contentTop"><img src="img/angle-arrow-down.png" /></a>
+    </div>
+  </div>
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="active item one"></div>
+      <div class="item two"></div>
+      <div class="item three"></div>
+      <div class="item four"></div>
+      <div class="item five"></div>
+    </div>
+  </div>
+
+  <div id="contentTop" class="about">
+    <div class="aboutImg col-sm-6 col-xs-12">
+      <div class=""></div>
+    </div>
+    <div class="aboutInfo col-sm-6 col-xs-12">
+      <h1>My name is Alex.</h1>
+      <h2>I am a photographer based out of Fort Collins, Colorado. My goal in life is to have as many life experiences with as many people as as I can while documenting everything along the way. Whether it is documenting a simple hike or a huge life event such as a wedding I want everyone that views my work to feel like they are right there in the exact moment it was taken. </h2>
+      <a href="mailto:alexdoesphotos@yahoo.com?Subject=Web Contact">Let's do something great together</a>
+    </div>
+  </div>
+
+  <div class="social">
+    <div class="iconBar1 iconLeft col-sm-2 col-xs-6">
+      <a href="https://www.facebook.com/alexaistropephotography/" target="_blank">
+        <img src="img/facebook-logo.svg"  alt="facebook logo" />
+      </a>
+    </div>
+    <div class="iconBar2 iconRight col-sm-2 col-xs-6">
+      <a href="https://www.instagram.com/alexdoesphotos/" target="_blank">
+        <img src="img/instagram-logo.svg"  alt="instagram logo" />
+      </a>
+    </div>
+    <div class="iconBar1 iconLeft col-sm-2 col-xs-6">
+      <a href="https://twitter.com/alexdoesphotos" target="_blank">
+        <img src="img/twitter-logo-silhouette.svg" alt="twitter logo" />
+      </a>
+    </div>
+    <div class="iconBar2 iconRight col-sm-2 col-xs-6">
+      <a href="https://alexdoesphotosblog.wordpress.com/" target="_blank">
+        <img src="img/social-rss.svg" alt="blog logo"/>
+      </a>
+    </div>
+    <div class="iconBar1 iconLeft col-sm-2 col-xs-6">
+      <a href="https://www.linkedin.com/in/alex-aistrope-8a4a03122" target="_blank">
+        <img src="img/linkedin-logo.svg" alt="linkedIn logo"/>
+      </a>
+    </div>
+    <div class="iconBar2 iconRight col-sm-2 col-xs-6">
+      <a href="mailto:alexdoesphotos@yahoo.com?Subject=Web Contact" target="_top">
+        <img src="img/envelope.svg" alt="email logo"/>
+      </a>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="copyright">&copy;2016 alexdoesphotos All Rights Reserved</div>
+  </footer>
+
+  <!-- Scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/smooth_scroll.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/nav_toggle.js"></script>
+  
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.carousel').carousel({interval: 10000});
+    });
+  </script>
+
+</body>
+
+</html>
