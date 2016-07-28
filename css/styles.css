@@ -191,7 +191,7 @@ div.navExpanded {
   margin-top: 50px;
 }
 .logo a img:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 /***** about *****/
@@ -218,7 +218,6 @@ div.navExpanded {
 .about a:hover {
   color: #ff6700;
 }
-.about
 .aboutImg {
   background-image: url(../img/moneyshot.jpg);
   background-size: cover;
@@ -238,10 +237,10 @@ div.navExpanded {
   height: 200px;
   text-align: center;
   line-height: 200px;
-  transition: .3s ease-out;
 }
 .social img {
   height: 38%;
+  transition: .3s ease-out;
 }
 .iconBar1 {
   background: #232323;
@@ -267,16 +266,28 @@ div.navExpanded {
 footer {
   text-align: center;
   background: #3c3c3c;
-  padding: 20px 0;
-  margin: 0;
   color: #e5e5e5;
   font-weight: 200;
   letter-spacing: 1.5px;
+  padding: 20px;
+  margin: 0;
 }
 
 /***** responsive *****/
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1050px) {
+  .about h1 {
+    font-size: 34px;
+  }
+  .about h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .about a {
+    font-size: 18px;
+  }
+}
+@media all and (max-width: 768px) {
   .navToggle {
     padding-top: 120px;
     height: 100vh;
@@ -289,41 +300,28 @@ footer {
   .logo img {
     width: 45%;
   }
-  .aboutInfo {
-    padding: 25px 55px;
-    height: 400px;
-    text-align: center;
+  .about {
+    height: 500px;
   }
-  footer {
-    padding: 40px;
+  .about h1 {
+    font-size: 28px;
+  }
+  .about h2 {
+    font-size: 16px;
+  }
+  .aboutInfo,
+  .aboutImg {
+    padding: 25px 55px;
+    height: 300px;
+    text-align: center;
   }
   .copyright {
     margin-top: 40px;
   }
-}
-
-@media all and (max-width: 400px) {
-  .navBar {
-    padding-right: 0;
-  }
-  .right {
-    float: none;
-  }
-  .about {
-    height: 250px;
-  }
-  .aboutInfo {
-    height: 400px;
-  }
-  .about h1 {
-    font-size: 24px;
-  }
-  .about h2 {
-    font-size: 16px;
-    line-height: 22px;
-  }
-  .about a {
-    font-size: 16px;
+  .social {
+    margin-top: 50px;
+    height: 110px;
+    line-height: 110px;
   }
   .iconOne,
   .iconFour,
@@ -334,6 +332,35 @@ footer {
   .iconThree,
   .iconSix {
     background-color: #282828;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .navToggle {
+    padding-top: 85px;
+  }
+  .navToggle a {
+    padding: 18px;
+  }
+  .navBar {
+    padding-right: 0;
+  }
+  .right {
+    float: none;
+  }
+  .about {
+    height: 700px;
+  }
+  .aboutInfo {
+    padding: 25px 20px;
+  }
+  .social {
+    margin-top: 50px;
+    height: 150px;
+    line-height: 150px;
+  }
+  footer {
+    padding-top: 297px;
   }
 }
 
